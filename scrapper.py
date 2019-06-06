@@ -13,7 +13,7 @@ for t in range(len(tr_elements)):	# iterates through the range of the raw data t
 		for j in tr_elements[i]:		# for loop to append the table columns to the list
 			name = j.text_content()
 			webpage_info.append(name)
-			i += 0
+			i += 1
 	except IndexError:
 		pass
 l = 0					# start index for the splice
