@@ -43,6 +43,5 @@ with open('/home/usacys/python/output.csv', 'w') as document:		# open a csv to w
 					newline += z
 					s += 1 
 		document.write("%s\n" % newline)
-		print(l)
 		l += 4
 		k += 4
